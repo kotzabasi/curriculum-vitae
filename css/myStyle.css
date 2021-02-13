@@ -1,0 +1,115 @@
+body {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(87, 142, 245, 0.7),
+      rgba(28, 32, 223, 0.7)
+    ),
+  url("../images/cover1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  color: white;
+  
+
+}
+
+.row {
+  height: 100vh;
+}
+.text-box {
+  position: absolute;
+  top: 40%;
+  text-align: center;
+}
+
+a{
+    font-weight: bold;
+   
+}
+
+a:hover{
+    text-decoration: none;
+    color: #000; 
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.heading_main {
+  display: block;
+  font-size: 5rem;
+  font-weight: 400;
+  letter-spacing: 1rem;
+  animation-name: moveInLeft;
+  animation-duration: 2s;
+  animation-timing-function: ease-out;
+}
+
+.heading_sub {
+    display: block;
+    font-size: 2rem;
+    font-weight: 400;
+    letter-spacing: 0.75rem;
+    margin: 1.875rem 0;
+    animation-name: moveRight;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+}
+
+.btn_animated{
+        text-transform: none;
+        text-decoration: none;
+        padding: 0.75rem 2rem;
+        display: inline-block; 
+        border-radius: 5rem;
+        transition: all .2s;
+        position: relative;
+        border: none;
+        cursor: pointer;
+        background-color: white;
+        color: #000; 
+        color: rgba(0, 0, 0, 0.5);
+        animation: moveInButton .5s ease-out .75s;
+        animation-fill-mode: backwards;
+}
+
+
+
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-10rem);
+  }
+  80% {
+    transform: translateX(2rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+@keyframes moveRight {
+  0% {
+    opacity: 0;
+    transform: translateX(10rem);
+  }
+  80% {
+    transform: translateX(-2rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+@keyframes moveInButton {
+  0% {
+    opacity: 0;
+    transform: translateY(10rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

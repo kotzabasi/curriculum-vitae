@@ -1,0 +1,161 @@
+body {
+  margin: 0;
+  /* width: 100%;
+  height: auto; */
+  background: #076585; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #fff,
+    #076585
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #fff,
+    #076585
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Manrope", sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+  font-size: 1rem;
+  text-align: center;
+  position: relative;
+}
+
+.row {
+  margin: 6.25rem 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+h5 {
+  color: #000080;
+}
+.card {
+  background-color: transparent;
+  display: inline-block;
+  width: 37.5rem;
+  font-size: 1rem;
+}
+li {
+  text-align: left;
+}
+.nav-link {
+  text-align: center;
+}
+
+.logo {
+  animation: backInDown;
+  animation-duration: 2s;
+}
+
+/*MEDIA QUERIES*/
+@media only screen and (max-width: 2560px) and (min-width: 1925px) {
+  html {
+    height: 101%;
+  }
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 1199px) and (orientation: portrait) {
+  html {
+    height: 101%;
+  }
+}
+
+@media only screen and (max-width: 1136px) and (orientation: landscape) {
+  .row {
+    display: block;
+  }
+  .logo {
+    margin-bottom: 5rem;
+  }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 1022px) and (orientation:portrait) {
+  html {
+    height: 101%;
+  }
+}
+
+@media only screen and (max-width:768px) and (min-width:767px) and (orientation:portrait){
+  .row{
+    display: block;
+  }
+  .logo{
+    margin-bottom: 2rem;
+  }
+}
+
+@media only screen and (max-width: 736px) and (orientation: landscape) {
+  .card {
+    width: 32.5rem;
+    margin-left: -50px;
+  }
+  .subcard {
+    width: 30rem;
+    margin-left: 1px;
+    margin-bottom: 2rem;
+  }
+  .logo {
+    margin-left: -50px;
+  }
+}
+
+@media only screen and(max-width:667px) and (orientation: landscape) {
+  .logo {
+    margin-right: 25px;
+  }
+}
+
+@media only screen and (max-width: 640px) and (orientation: landscape) {
+  html {
+    width: 108%;
+  }
+  .card {
+    width: 25rem;
+  }
+  .subcard {
+    width: 23rem;
+    margin-bottom: 2rem;
+  }
+  body > nav > button {
+    margin-right: 30px;
+  }
+}
+
+@media only screen and (max-width: 640px) and (min-width: 620px) and (orientation: portrait) {
+  html {
+    width: 115%;
+  }
+  .card {
+    margin-left: -3.75rem;
+  }
+  .subcard {
+    margin-left: 0;
+  }
+  .logo {
+    margin-bottom: 2rem;
+  }
+}
+
+@media only screen and (max-width: 480px) and (orientation: portrait) {
+  .card {
+    width: auto;
+    margin-left: 5px;
+  }
+  .logo {
+    margin-bottom: 2rem;
+  }
+  .subcard {
+    margin-bottom: 2rem;
+  }
+}
+
+@media only screen and (max-width: 320px) and (orientation: portrait) {
+  img {
+    width: 12.5rem;
+  }
+}

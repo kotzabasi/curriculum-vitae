@@ -1,0 +1,107 @@
+body {
+  background: #abbaab; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ffffff,
+    #abbaab
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ffffff,
+    #abbaab
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Manrope", sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+  font-size: 1rem;
+  text-align: center;
+  position: relative;
+  transition: all .2s;
+}
+
+
+.row {
+  margin: 2.4rem;
+}
+
+.skill {
+  background: linear-gradient(to right, #5C5858, #0C090A);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 300;
+  font-size: 2.5rem;
+}
+
+#skillJavascript {
+  animation-duration: 2s;
+  animation-delay: 0s;
+}
+#skillJquery {
+  animation-duration: 2s;
+  animation-delay: 0s;
+}
+
+#skillJava {
+  animation-duration: 2s;
+  animation-delay: 2s;
+}
+
+#skillSql {
+  animation-duration: 2s;
+  animation-delay: 2s;
+}
+
+#skillCss {
+  animation-duration: 2s;
+  animation-delay: 4s;
+}
+
+#skillHtml {
+  animation-duration: 2s;
+  animation-delay: 4s;
+}
+
+#skillnode {
+  animation-duration: 2s;
+  animation-delay: 6s;
+}
+
+#skillMongo{
+  animation-duration: 2s;
+  animation-delay: 6s;
+}
+
+
+#skillsass {
+  animation-duration: 2s;
+  animation-delay: 8s;
+}
+
+#skillFlexbox {
+  animation-duration: 2s;
+  animation-delay: 8s;
+}
+
+#skillwordpress {
+  animation-duration: 2s;
+  animation-delay: 10s;
+}
+
+#skillElementor {
+  animation-duration: 2s;
+  animation-delay: 10s;
+}
+
+#skillBootstrap {
+  animation-duration: 2s;
+  animation-delay: 12s;
+}
+
+
+#skillEcommerce {
+  animation-duration: 2s;
+  animation-delay: 12s;
+}

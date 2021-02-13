@@ -1,0 +1,44 @@
+body {
+
+  background: #304352; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #d7d2cc,
+    #304352
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #d7d2cc,
+    #304352
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Manrope", sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+  font-size: 1rem;
+  text-align: center;
+  position: relative;
+}
+
+h5 {
+  color: #000080;
+}
+
+.row {
+  margin: 6.25rem 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+.card {
+  background-color: transparent;
+  display: inline-block;
+  width: 37.5rem;
+  font-size: 1rem;
+}
+
+.logo {
+  animation: backInDown;
+  animation-duration: 2s;
+}

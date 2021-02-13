@@ -1,0 +1,191 @@
+body {
+  background: #c9ffbf; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ffafbd,
+    #c9ffbf
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ffafbd,
+    #c9ffbf
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Manrope", sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+  font-size: 1rem;
+  text-align: center;
+  position: relative;
+}
+
+.card {
+  height: 37.5rem;
+  width: 25rem;
+  top: 20%;
+  transition-duration: 6s;
+  transform-style: preserve-3d;
+  display: inline-block;
+  animation: pulse;
+  animation-duration: 2s;
+  margin-bottom: 12.5rem;
+}
+
+.front {
+  width: 100%;
+  position: absolute;
+  background: #e0eafc; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #cfdef3,
+    #e0eafc
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #cfdef3,
+    #e0eafc
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  backface-visibility: hidden;
+}
+
+.back {
+  background: #e8cbc0; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #636fa4,
+    #e8cbc0
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #636fa4,
+    #e8cbc0
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  transform: rotateY(180deg);
+  backface-visibility: hidden;
+}
+
+.front,
+.back {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+
+.card-side {
+  margin: 0 1rem;
+}
+
+.card:hover {
+  transform: rotateY(180deg);
+  transition-duration: 6s;
+}
+
+/*MEDIA QUERIES*/
+
+@media only screen and (max-width: 2560px) and (min-width: 2000px) {
+  html {
+    height: 101%;
+  }
+}
+
+@media only screen and (max-width: 1136px) and (orientation: landscape) {
+  .card {
+    width: 22rem;
+    height: 32.5rem;
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width: 1024) and (min-width: 767px) and (orientation: portrait) {
+  html {
+    height: 101%;
+  }
+}
+
+@media only screen and (max-width: 640px) and (min-width: 639px) and (orientation: portrait) {
+  html {
+    height: 110%;
+    width: 107%;
+  }
+}
+
+@media only screen and (max-width: 568px) and (orientation: landscape) {
+  .card {
+    width: 16.5rem;
+    height: 22rem;
+    margin-bottom: 5rem;
+  }
+  .card-header {
+    padding: 0;
+  }
+  .card-header h4 {
+    font-size: 1.25rem;
+  }
+
+  .card-body {
+    padding: 5px;
+    font-size: 0.875rem;
+  }
+}
+
+@media only screen and (max-width: 480px) and (min-width: 415) and(orientation: portrait) {
+  html {
+    height: 100%;
+    width: 101%;
+  }
+  .card {
+    height: 32.5rem;
+    width: 22rem;
+    margin-bottom: 5rem;
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width: 414px) and (orientation: portrait) {
+  html {
+    height: 100%;
+    width: 100%;
+  }
+  .card {
+    height: 25.5rem;
+    width: 15rem;
+    margin-bottom: 6rem;
+    top: 10%;
+  }
+
+  .card-header h4 {
+    font-size: 1rem;
+  }
+
+  .card-body {
+    padding: 5px;
+    font-size: 0.725rem;
+  }
+}
+
+@media only screen and (max-width: 360px) and (orientation: portrait) {
+  html {
+    height: 105%;
+  }
+}
+@media only screen and (max-width: 320px) and (orientation: portrait) {
+  html {
+    height: 120%;
+  }
+
+  .card {
+    height: 25.5rem;
+    width: 15rem;
+    top: 5%;
+  }
+  #back {
+    padding: 0.8rem 1.8rem;
+    border-radius: 1.1rem;
+    margin-right: 1.4rem;
+  }
+}

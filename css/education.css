@@ -1,0 +1,97 @@
+body {
+  background: #005aa7; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #fffde4,
+    #005aa7
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #fffde4,
+    #005aa7
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Manrope", sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+  font-size: 1rem;
+  text-align: center;
+  position: relative;
+}
+
+.row {
+  margin: 6.25rem 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+h5 {
+  color: #000080;
+}
+
+.card {
+  background-color: transparent;
+  display: inline-block;
+  width: 37.5rem;
+  font-size: 1rem;
+}
+
+img {
+  animation: backInDown;
+  animation-duration: 2s;
+}
+
+/*MEDIA QUERIES*/
+
+@media only screen and (max-width: 1136px) and (orientation: landscape) {
+  .row {
+    display: block;
+  }
+  .logo {
+    margin-bottom: 5rem;
+  }
+
+  #backButton {
+    margin-right: 3.125rem;
+  }
+}
+
+@media only screen and (max-width: 736px) and (orientation: landscape) {
+  .card {
+    width: 32rem;
+  }
+
+  #backButton {
+    margin-right: 0;
+  }
+}
+
+@media only screen and (max-width: 568px) and (orientation: landscape) {
+  .card {
+    width: 30rem;
+  }
+}
+@media only screen and (max-width: 480px) and (orientation: landscape) {
+  .card {
+    width: 25rem;
+  }
+}
+
+@media only screen and (max-width: 414px) and (orientation: portrait) {
+  .col-sm {
+    padding-left: 6px;
+  }
+  .card {
+    width: 23rem;
+  }
+  .logo {
+    margin-bottom: 2rem;
+  }
+}
+
+@media only screen and(max-width:375px) and (orientation: portrait) {
+  .card {
+    width: 17rem;
+  }
+}
