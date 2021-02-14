@@ -44,6 +44,12 @@ img {
 
 /*MEDIA QUERIES*/
 
+@media only screen and (max-width: 1200px) and (min-width: 1199px) and (orientation: portrait) {
+  html {
+    height: 101%;
+  }
+}
+
 @media only screen and (max-width: 1136px) and (orientation: landscape) {
   .row {
     display: block;
@@ -57,6 +63,15 @@ img {
   }
 }
 
+@media only screen and (max-width:768px) and (min-width:767px) and (orientation:portrait){
+  .row{
+    display: block;
+  }
+  .logo{
+    margin-bottom: 2rem;
+  }
+}
+
 @media only screen and (max-width: 736px) and (orientation: landscape) {
   .card {
     width: 32rem;
@@ -67,14 +82,33 @@ img {
   }
 }
 
+@media only screen and (max-width: 640px) and (min-width: 620px) and (orientation: portrait) {
+  html {
+    width: 115%;
+  }
+
+  .card {
+    width: 30rem;
+    margin-left: -3.75rem;
+  }
+.logo{
+  margin-right: 6.25rem;
+  margin-bottom: 2rem;
+}
+ 
+}
+
 @media only screen and (max-width: 568px) and (orientation: landscape) {
   .card {
     width: 30rem;
   }
 }
-@media only screen and (max-width: 480px) and (orientation: landscape) {
+@media only screen and (max-width: 480px){
   .card {
     width: 25rem;
+  }
+  .logo{
+    margin-bottom: 2rem;
   }
 }
 
@@ -83,15 +117,14 @@ img {
     padding-left: 6px;
   }
   .card {
-    width: 23rem;
+    width: 21rem;
   }
   .logo {
     margin-bottom: 2rem;
   }
 }
-
-@media only screen and(max-width:375px) and (orientation: portrait) {
+@media only screen and (max-width: 360px) and (orientation: portrait) {
   .card {
-    width: 17rem;
+    width: 18rem;
   }
 }

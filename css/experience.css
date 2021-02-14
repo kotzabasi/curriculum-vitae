@@ -128,14 +128,12 @@ li {
 
 @media only screen and (max-width: 640px) and (min-width: 620px) and (orientation: portrait) {
   html {
-    width: 115%;
+    width: 108%;
   }
   .card {
-    margin-left: -3.75rem;
+    width: 25rem;
   }
-  .subcard {
-    margin-left: 0;
-  }
+
   .logo {
     margin-bottom: 2rem;
   }

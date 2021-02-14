@@ -3,16 +3,14 @@ body {
   background: -webkit-linear-gradient(
     to right,
     #bbd2c5,
-    #99AFBC,
-    #797E99
-
-    
+    #99afbc,
+    #797e99
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to right,
     #bbd2c5,
-    #99AFBC,
-    #797E99
+    #99afbc,
+    #797e99
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
   background-size: cover;
@@ -23,16 +21,15 @@ body {
   font-size: 1rem;
   text-align: center;
   position: relative;
-  
+
   text-align: center;
 }
-
 
 .row {
   margin: 6.25rem;
 }
-h5{
-  color:#000080;
+h5 {
+  color: #000080;
 }
 
 .card {
@@ -44,4 +41,54 @@ h5{
 .logo {
   animation: backInDown;
   animation-duration: 2s;
+}
+
+/*MEDIA QUERIES*/
+
+@media only screen and (max-width: 768px) and (min-width: 767px) and (orientation: portrait) {
+  
+  .row,
+  .col-sm {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .row {
+    display: block;
+  }
+  .logo {
+    margin-bottom: 2rem;
+  }
+}
+@media only screen and (max-width: 480px) and (orientation: portrait) {
+  .container-sm,
+  .row,
+  .col-sm {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .card {
+    width: 25rem;
+  }
+  #backButton {
+    margin-right: 2rem;
+  }
+}
+
+@media only screen and (max-width: 414px) and (orientation: portrait) {
+  .card {
+    width: 22rem;
+  }
+  .logo {
+    width: 14.375rem;
+  }
+}
+
+@media only screen and (max-width: 375px) and (orientation: portrait) {
+  .card {
+    width: 18rem;
+  }
 }
