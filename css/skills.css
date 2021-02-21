@@ -19,16 +19,15 @@ body {
   font-size: 1rem;
   text-align: center;
   position: relative;
-  transition: all .2s;
+  transition: all 0.2s;
 }
-
 
 .row {
   margin: 2.4rem;
 }
 
 .skill {
-  background: linear-gradient(to right, #5C5858, #0C090A);
+  background: linear-gradient(to right, #5c5858, #0c090a);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: 300;
@@ -69,11 +68,10 @@ body {
   animation-delay: 6s;
 }
 
-#skillMongo{
+#skillMongo {
   animation-duration: 2s;
   animation-delay: 6s;
 }
-
 
 #skillsass {
   animation-duration: 2s;
@@ -100,8 +98,25 @@ body {
   animation-delay: 12s;
 }
 
-
 #skillEcommerce {
   animation-duration: 2s;
   animation-delay: 12s;
+}
+
+@media screen and (max-width: 2560px) and (min-width: 2500px) {
+  html {
+    height: 101%;
+  }
+}
+
+@media screen and (max-width: 1920px) {
+  html {
+    height: 160%;
+  }
+}
+
+@media only screen and (max-width:1366px) and (min-width:1201px){
+  html{
+    height: 180%;
+  }
 }

@@ -113,3 +113,10 @@ a:hover{
     transform: translateY(0);
   }
 }
+
+
+@media only screen and (max-width:640px) and (orientation:landscape){
+  .heading_main{
+    font-size: 4rem;
+  }
+}
