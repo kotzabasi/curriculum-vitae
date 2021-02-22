@@ -1,17 +1,12 @@
-body {
-  background: #c9ffbf; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #ffafbd,
-    #c9ffbf
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #ffafbd,
-    #c9ffbf
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+html{
+  background: #c9ffbf;
+  background: -webkit-linear-gradient(to right, #ffafbd, #c9ffbf);
+  background: linear-gradient(to right, #ffafbd, #c9ffbf);
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+body {
   font-family: "Manrope", sans-serif;
   font-weight: 400;
   line-height: 1.6;
@@ -19,7 +14,13 @@ body {
   text-align: center;
   position: relative;
 }
-
+.container-fluid{
+  background: #c9ffbf;
+  background: -webkit-linear-gradient(to right, #ffafbd, #c9ffbf);
+  background: linear-gradient(to right, #ffafbd, #c9ffbf);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 .card {
   height: 37.5rem;
   width: 25rem;
@@ -89,7 +90,7 @@ body {
 
 @media only screen and (max-width: 2560px) and (min-width: 1920px) {
   html {
-    height: 101%;
+    height: 104%;
   }
 }
 
@@ -182,7 +183,7 @@ body {
 
 @media only screen and (max-width: 360px) and (orientation: portrait) {
   html {
-    height: 105%;
+    height: 120%;
   }
 }
 @media only screen and (max-width: 320px) and (orientation: portrait) {

@@ -42,7 +42,6 @@ a:hover {
   color: #82caff;
 }
 #backButton {
-  float: right;
   margin-bottom: 3.25rem;
 }
 
@@ -58,13 +57,13 @@ a:hover {
   .text-box {
     top: 5%;
   }
-  #back{
+  #back {
     margin-right: 2rem;
   }
 }
 
 @media only screen and (max-width: 667px) and (orientation: landscape) {
- #back  {
+  #back {
     padding: 0.8rem 1.8rem;
     border-radius: 1.1rem;
     margin-right: 1.4rem;
@@ -100,4 +99,3 @@ a:hover {
     font-size: 0.7rem;
   }
 }
-
