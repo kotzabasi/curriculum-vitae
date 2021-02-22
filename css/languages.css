@@ -59,3 +59,18 @@ h5 {
     height: 151%;
   }
 }
+
+@media only screen and (max-width:1024px) and (min-width:1023px) and (orientation:portrait){
+  html{
+    height: 101%;
+  }
+}
+
+@media only screen and (max-width:768px){
+  .row{
+    display: block;
+  }
+  .logo{
+    margin-bottom: 2rem;
+  }
+}

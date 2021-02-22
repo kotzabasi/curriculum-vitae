@@ -115,8 +115,14 @@ body {
   }
 }
 
-@media only screen and (max-width:1366px) and (min-width:1201px){
-  html{
+@media only screen and (max-width: 1366px) and (min-width: 1201px) {
+  html {
     height: 180%;
+  }
+}
+
+@media only screen and (max-width:1024px) and (orientation:portrait){
+  html{
+    height: 101%;
   }
 }

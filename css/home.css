@@ -93,8 +93,8 @@ body {
   }
 }
 
-@media only screen and (max-width:1680px) and (min-width:1366px){
-  html{
+@media only screen and (max-width: 1680px) and (min-width: 1366px) {
+  html {
     height: 131%;
   }
 }
@@ -113,7 +113,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 1024) and (min-width: 767px) and (orientation: portrait) {
+@media only screen and (max-width: 1024px) and (min-width: 767px) and (orientation: portrait) {
   html {
     height: 101%;
   }
