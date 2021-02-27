@@ -74,17 +74,17 @@ li {
   }
 }
 
-@media only screen and (max-width: 1024px) and (min-width: 1022px) and (orientation:portrait) {
+@media only screen and (max-width: 1024px) and (min-width: 1022px) and (orientation: portrait) {
   html {
     height: 101%;
   }
 }
 
-@media only screen and (max-width:768px) and (min-width:767px) and (orientation:portrait){
-  .row{
+@media only screen and (max-width: 834px) and (min-width: 767px) and (orientation: portrait) {
+  .row {
     display: block;
   }
-  .logo{
+  .logo {
     margin-bottom: 2rem;
   }
 }
@@ -121,9 +121,6 @@ li {
     width: 23rem;
     margin-bottom: 2rem;
   }
-  body > nav > button {
-    margin-right: 30px;
-  }
 }
 
 @media only screen and (max-width: 640px) and (min-width: 620px) and (orientation: portrait) {
@@ -134,10 +131,24 @@ li {
     width: 25rem;
   }
 
+  .row{
+    display: block;
+  }
   .logo {
     margin-bottom: 2rem;
   }
+  #navBar > button{
+    margin-right: 2.5rem;
+  }
 }
+
+@media only screen and (max-width:568px) and (min-width: 479px) and (orientation:landscape){
+  #navBar > button{
+    margin-right: 2rem;
+  }
+
+}
+
 
 @media only screen and (max-width: 480px) and (orientation: portrait) {
   .card {

@@ -19,7 +19,15 @@ $(document).ready(function () {
   $("#skillBootstrap").addClass("animate__animated animate__backInLeft");
   $("#skillEcommerce").addClass("animate__animated animate__backInRight");
 
-
-
-
+  $(window)
+    .bind("resize", function () {
+      console.log($(this).width());
+      if ($(this).width() <= 640) {
+        $("#navBar").removeClass("navbar-expand-sm");
+      }
+      else{
+        $("#navBar").addClass("navbar-expand-sm");
+      }
+    })
+    .trigger("resize");
 });

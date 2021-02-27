@@ -1,4 +1,4 @@
-html{
+html {
   background: #c9ffbf;
   background: -webkit-linear-gradient(to right, #ffafbd, #c9ffbf);
   background: linear-gradient(to right, #ffafbd, #c9ffbf);
@@ -14,7 +14,7 @@ body {
   text-align: center;
   position: relative;
 }
-.container-fluid{
+.container-fluid {
   background: #c9ffbf;
   background: -webkit-linear-gradient(to right, #ffafbd, #c9ffbf);
   background: linear-gradient(to right, #ffafbd, #c9ffbf);
@@ -125,8 +125,10 @@ body {
     height: 110%;
     width: 107%;
   }
+  #navBar > button {
+    margin-right: 2rem;
+  }
 }
-
 @media only screen and (max-width: 568px) and (orientation: landscape) {
   .card {
     width: 16.5rem;

@@ -35,72 +35,72 @@ body {
 }
 
 #skillJavascript {
-  animation-duration: 2s;
+  animation-duration: 1s;
   animation-delay: 0s;
 }
 #skillJquery {
-  animation-duration: 2s;
+  animation-duration: 1s;
   animation-delay: 0s;
 }
 
 #skillJava {
-  animation-duration: 2s;
-  animation-delay: 2s;
+  animation-duration: 1s;
+  animation-delay: 1s;
 }
 
 #skillSql {
-  animation-duration: 2s;
-  animation-delay: 2s;
+  animation-duration: 1s;
+  animation-delay: 1s;
 }
 
 #skillCss {
-  animation-duration: 2s;
-  animation-delay: 4s;
+  animation-duration: 1s;
+  animation-delay: 2s;
 }
 
 #skillHtml {
-  animation-duration: 2s;
-  animation-delay: 4s;
+  animation-duration: 1s;
+  animation-delay: 2s;
 }
 
 #skillnode {
-  animation-duration: 2s;
-  animation-delay: 6s;
+  animation-duration: 1s;
+  animation-delay: 3s;
 }
 
 #skillMongo {
-  animation-duration: 2s;
-  animation-delay: 6s;
+  animation-duration: 1s;
+  animation-delay: 3s;
 }
 
 #skillsass {
-  animation-duration: 2s;
-  animation-delay: 8s;
+  animation-duration: 1s;
+  animation-delay: 4s;
 }
 
 #skillFlexbox {
-  animation-duration: 2s;
-  animation-delay: 8s;
+  animation-duration: 1s;
+  animation-delay: 4s;
 }
 
 #skillwordpress {
-  animation-duration: 2s;
-  animation-delay: 10s;
+  animation-duration: 1s;
+  animation-delay: 5s;
 }
 
 #skillElementor {
-  animation-duration: 2s;
-  animation-delay: 10s;
+  animation-duration: 1s;
+  animation-delay: 5s;
 }
 
 #skillBootstrap {
-  animation-duration: 2s;
-  animation-delay: 12s;
+  animation-duration: 1s;
+  animation-delay: 6s;
 }
 
 #skillEcommerce {
-  animation-duration: 2s;
-  animation-delay: 12s;
+  animation-duration: 1s;
+  animation-delay: 6s;
 }
 
 @media screen and (max-width: 2560px) and (min-width: 2500px) {
